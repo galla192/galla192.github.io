@@ -1,0 +1,290 @@
+/* line 1, ../sass/menu.sass */
+html {
+  height: 100%;
+}
+
+/* line 4, ../sass/menu.sass */
+body {
+  height: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  /* line 7, ../sass/menu.sass */
+  #top-bar {
+    position: fixed;
+    background-color: #202020;
+    top: 0;
+    width: 98.8%;
+    height: 50px;
+    z-index: 111;
+  }
+  /* line 15, ../sass/menu.sass */
+  #top-bar .btn-group h1 {
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: grey;
+    font-size: x-large;
+    font-weight: 700;
+  }
+  /* line 24, ../sass/menu.sass */
+  #top-bar .btn-group button {
+    border-radius: 0;
+    background-color: #202020;
+    color: grey;
+    border-style: none;
+    height: 50px;
+  }
+  /* line 30, ../sass/menu.sass */
+  #top-bar .btn-group button:focus {
+    outline: none;
+  }
+  /* line 32, ../sass/menu.sass */
+  #top-bar .btn-group button:hover {
+    background-color: white;
+  }
+
+  /* line 34, ../sass/menu.sass */
+  #main-content {
+    width: 100%;
+    float: right;
+    height: 100%;
+    overflow: auto;
+  }
+  /* line 39, ../sass/menu.sass */
+  #main-content .section {
+    height: 0;
+  }
+  /* line 41, ../sass/menu.sass */
+  #main-content .section h1 {
+    margin: 0;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+    font-family: serif;
+    font-size: 450%;
+  }
+  /* line 49, ../sass/menu.sass */
+  #main-content .section h2 {
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+    text-align: center;
+    font-family: serif;
+  }
+  /* line 54, ../sass/menu.sass */
+  #main-content .content {
+    height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #202020;
+    overflow: hidden;
+    -webkit-transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5s;
+    transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5px;
+    border-bottom: solid #202020;
+  }
+  /* line 63, ../sass/menu.sass */
+  #main-content .content h1 {
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: monospace;
+  }
+  /* line 68, ../sass/menu.sass */
+  #main-content .content .story {
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 72, ../sass/menu.sass */
+  #main-content .content .story p {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  /* line 75, ../sass/menu.sass */
+  #main-content .content .hero-title {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 79, ../sass/menu.sass */
+  #main-content .slideshow {
+    height: 600px;
+    overflow: hidden;
+  }
+  /* line 82, ../sass/menu.sass */
+  #main-content .slideshow .carousel-indicators {
+    display: none;
+  }
+  /* line 84, ../sass/menu.sass */
+  #main-content .slideshow .carousel-inner {
+    z-index: -1;
+  }
+  /* line 87, ../sass/menu.sass */
+  #main-content .slideshow .carousel-inner .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  /* line 92, ../sass/menu.sass */
+  #main-content .slideshow .down-button {
+    color: #202020;
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    right: auto;
+    background-color: white;
+    border: 0;
+  }
+  /* line 100, ../sass/menu.sass */
+  #main-content .slideshow .down-button .glyphicon {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  /* line 102, ../sass/menu.sass */
+  #main-content .slideshow .down-button:focus {
+    outline: none;
+  }
+}
+@media screen and (max-width: 575px) {
+  /* line 105, ../sass/menu.sass */
+  #top-bar {
+    position: fixed;
+    background-color: #202020;
+    top: 0;
+    width: 98.8%;
+    height: 50px;
+    z-index: 111;
+  }
+  /* line 113, ../sass/menu.sass */
+  #top-bar .btn-group h1 {
+    float: left;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: grey;
+    font-size: x-large;
+    font-weight: 700;
+  }
+  /* line 122, ../sass/menu.sass */
+  #top-bar .btn-group button {
+    border-radius: 0;
+    background-color: #202020;
+    color: grey;
+    border-style: none;
+    height: 50px;
+  }
+  /* line 128, ../sass/menu.sass */
+  #top-bar .btn-group button:focus {
+    outline: none;
+  }
+  /* line 130, ../sass/menu.sass */
+  #top-bar .btn-group button:hover {
+    background-color: white;
+  }
+
+  /* line 132, ../sass/menu.sass */
+  #main-content {
+    width: 100%;
+    float: right;
+    height: 100%;
+    overflow: auto;
+  }
+  /* line 137, ../sass/menu.sass */
+  #main-content .section {
+    height: 0;
+  }
+  /* line 139, ../sass/menu.sass */
+  #main-content .section h1 {
+    margin: 0;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+    font-family: serif;
+    font-size: 450%;
+  }
+  /* line 147, ../sass/menu.sass */
+  #main-content .section h2 {
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+    text-align: center;
+    font-family: serif;
+  }
+  /* line 152, ../sass/menu.sass */
+  #main-content .content {
+    height: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #202020;
+    overflow: hidden;
+    -webkit-transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5s;
+    transition: height 0.5s, padding-top 0.5s, padding-bottom 0.5px;
+    border-bottom: solid #202020;
+  }
+  /* line 161, ../sass/menu.sass */
+  #main-content .content h1 {
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: monospace;
+  }
+  /* line 166, ../sass/menu.sass */
+  #main-content .content .story {
+    width: 61%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 170, ../sass/menu.sass */
+  #main-content .content .story p {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  /* line 173, ../sass/menu.sass */
+  #main-content .content .hero-title {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 177, ../sass/menu.sass */
+  #main-content .slideshow {
+    height: 400px;
+    overflow: hidden;
+  }
+  /* line 180, ../sass/menu.sass */
+  #main-content .slideshow .carousel-indicators {
+    display: none;
+  }
+  /* line 182, ../sass/menu.sass */
+  #main-content .slideshow .carousel-inner {
+    z-index: -1;
+  }
+  /* line 185, ../sass/menu.sass */
+  #main-content .slideshow .carousel-inner .item img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  /* line 190, ../sass/menu.sass */
+  #main-content .slideshow .down-button {
+    color: #202020;
+    position: absolute;
+    top: 570px;
+    left: 50%;
+    right: auto;
+    background-color: white;
+    border: 0;
+  }
+  /* line 198, ../sass/menu.sass */
+  #main-content .slideshow .down-button .glyphicon {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  /* line 200, ../sass/menu.sass */
+  #main-content .slideshow .down-button:focus {
+    outline: none;
+  }
+}
